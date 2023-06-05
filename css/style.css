@@ -1,0 +1,127 @@
+.slider h3,
+.slider h5
+.clients h3{
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.parallax-container{
+    height: 200%;
+}
+
+.parallax img{
+    filter: grayscale(1);
+    opacity: 0.5 !important;
+}
+
+.clients img{
+    max-width: 150px;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+}
+
+
+section, footer{
+    padding: 20px 0;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #25d366 ;
+}
+
+.icons ion-icon{
+    color: #25d366 ;
+    font-size: 50px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.save-btn {
+    font-size: 22px;
+    color: #fff;
+    background: #29ca8e;
+    width: 250px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0 8px 5px -5px rgba(0, 0, 0, 0.2);
+    display: grid;
+    place-content: center;
+    transition: 0.2s;
+}
+
+.loader{
+    pointer-events: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #fff;
+    animation: an1 1s ease infinite;
+}
+@keyframes an1 {
+    0% {
+        transform: rotate(0turn);
+    }
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+.wrapper-2{
+    border: 1px solid black;
+    width: 380px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.toast{
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 7px;
+    display: grid;
+    grid-template-columns: 1.3fr 6fr 0.5fr;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.8);
+}
+
+.success {
+    border-left: 8px solid #47f764;
+}
+
+.success i {
+    color: #47f764;
+}
+
+.container-1 i {
+    font-size: 35px;
+}
+
+.container-1,.container-2 {
+    align-self: center;
+}
+
+.container-2 p:first-child{
+    font-size: 16px;
+    color: #101020;
+    font-weight: 600;
+}
+
+.container-2 p:last-child{
+    font-size: 12px;
+    font-weight: 400;
+    color: #656565;
+}
+
+.toast button{
+    align-self: flex-start;
+    background-color: transparent;
+    border:none;
+    font-size: 25px;
+    line-height: 0;
+    cursor: pointer;
+    color: #656565;
+}
